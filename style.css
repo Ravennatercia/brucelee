@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color:cadetblue;
+    color:black
+}
+
+strong{
+    color:blue;
+}
+
+.cabecalho{
+    padding: 2% 0 0 15%;
+}
+.cabecalho_menu{
+    display: flex;
+    gap:80px;
+}
+.menu_link{
+    font-family:'mont serrat';
+    font-size: 600;
+    color:black;
+    text-decoration: none;
+}
+.apresentacao{
+    margin:10% 15%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:82px
+}
+
+.conteudo{
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    gap: 40px;
+}
+.titulo{
+    color: darkblue;
+    font size: 2.25rem;
+    font-family: 'kronaone', sans-serif
+}
+
+.texto{
+    color:aquamarine;
+    font-size:1.5rem;
+    font-family: 'mont serrat'
+}
+.apresentacao{
+    width:50%;
+   
+}
+.link_site{
+    display:flex;
+    justify-content:space-between;
+}
+.links_botao{
+    background-color:aqua;
+    color:black;
+    width: 50%;
+    text-align: center;
+    border-radius: 16px;
+    font-size:1.5rem;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+}
+.links_botao:hover{
+  background-color:dodgerblue;
+}
+.nome{
+    color: navy;
+}
+.cor{
+    background-color: aqua;
+    color:black;
+    width:150px;
+    text-align:center;
+    border-radius: 16px;
+    font-size:1.5rem;
+    font-weight: 600;
+    padding: 21.5px 0;
+    text-decoration: none;
+}
+.cor:hover{
+    background-color: dodgerblue;
+}
+
+.Lee{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+    flex-direction:column;
+    gap: 32px;
+    align-items: center;
+    
+    
+}
+.titulo_conteudo{
+    font-size:1.5rem;
+}
+
+.cor_link{
+    color:blue
+}
+.titulo_apresentacao{
+    font-size:1.5rem;
+    color: blue;
+}
+@media(max-width:1.200px){
+    .cabecalho{
+        padding:10%;
+}
+   .cabecalho_menu{
+    justify-content: center;
+   }
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .conteudo{
+        width: auto;
+    }
+    
+}
+    
